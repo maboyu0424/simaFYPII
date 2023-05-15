@@ -48,7 +48,7 @@
                                     </tr>
 
                                     <tr>
-                                        <th>Photo</th>
+                                        <th>Photo (eg.receipt)</th>
                                         <td><input name="photo" type="file"/></td>
                                     </tr>
                                     <tr>

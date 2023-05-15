@@ -25,6 +25,7 @@
                                             <th>CheckIn Date</th>
                                             <th>CheckOut Date</th>
                                             <th>Ref</th>
+                                             
                                             <th>Action</th>
                                         </tr>
                                     </thead>
@@ -37,6 +38,7 @@
                                             <th>CheckIn Date</th>
                                             <th>CheckOut Date</th>
                                             <th>Ref</th>
+                                             
                                             <th>Action</th>
                                         
                                         </tr>
@@ -50,15 +52,17 @@
                                         @foreach ($data as $booking)
                                             <tr>
                                             <td>{{ $booking->id }}</td>
-                                                <td>{{ $booking->customer->full_name }}</td>
-                                                <td>{{ $booking->room->title }}</td>                                                
-                                                <td>{{ $booking->room->Roomtype->title }}</td>
-                                                <td>{{ $booking->checkin_date }}</td>
-                                                <td>{{ $booking->checkout_date }}</td>
-                                                <td>{{ $booking->ref }}</td>
+                                                <td>{{ $booking->customer->full_name ?? 'N/A'}}</td>
+                                                <td>{{ $booking->room->title ?? 'N/A'}}</td>                                                
+                                                <td>{{ $booking->room->Roomtype->title ?? 'N/A'}}</td>
+                                                <td>{{ $booking->checkin_date ?? 'N/A'}}</td>
+                                                <td>{{ $booking->checkout_date ?? 'N/A'}}</td>
+                                                <td>{{ $booking->ref ?? 'N/A'}}</td>
+
+                                                
                                                 <td>
-                                                    <a href="{{url('admin/booking/'.$booking->id)}}" class="btn btn-info btn-sm"><i class="fa fa-eye"></i></a>
-                                                    <a href="{{url('admin/booking/'.$booking->id.'/edit')}}" class="btn btn-primary btn-sm"><i class="fa fa-edit"></i></a>
+                                                    <!-- <a href="{{url('admin/booking/'.$booking->id)}}" class="btn btn-info btn-sm"><i class="fa fa-eye"></i></a>
+                                                    <a href="{{url('admin/booking/'.$booking->id.'/edit')}}" class="btn btn-primary btn-sm"><i class="fa fa-edit"></i></a> -->
                                                     <a onclick="return confirm('Are you sure to delete this data?')" href="{{url('admin/booking/'.$booking->id.'/delete')}}" class="btn btn-danger btn-sm"><i class="fa fa-trash"></i></a>
                                                  </td>
                                             </tr>

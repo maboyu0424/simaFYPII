@@ -15,8 +15,9 @@
             <div class="main-caption">
               <h2>Take a Glimpse Into The Beautiful Site Of:</h2>
               <h1>Lake</h1>
-              <div class="border-button"><a href="about.html">Go There</a></div>
-            </div>
+              
+              <div class="border-button"><a href="{{url('/campsites_spe/'.$lake)}}">Go There</a></div>
+                </div>
             <div class="container">
               <div class="row">
                 <div class="col-lg-12">
@@ -36,7 +37,7 @@
                       </div>
                       <div class="col-lg-3 col-sm-6 col-6">
                         <div class="main-button">
-                          <a href="about.html">Explore More</a>
+                          <a href="{{url('deals')}}">Explore More</a>
                         </div>
                       </div>
                     </div>
@@ -51,7 +52,7 @@
             <div class="main-caption">
               <h2>Take a Glimpse Into The Beautiful Site Of:</h2>
               <h1>Rainforest</h1>
-              <div class="border-button"><a href="about.html">Go There</a></div>
+              <div class="border-button"><a href="{{url('/campsites_spe/'.$rainforest)}}">Go There</a></div>
             </div>
             <div class="container">
               <div class="row">
@@ -72,7 +73,7 @@
                       </div>
                       <div class="col-lg-3 col-sm-6 col-6">
                         <div class="main-button">
-                          <a href="about.html">Explore More</a>
+                          <a href="{{url('deals')}}">Explore More</a>
                         </div>
                       </div>
                     </div>
@@ -87,7 +88,7 @@
             <div class="main-caption">
               <h2>Take a Glimpse Into The Beautiful Site Of:</h2>
               <h1>Sandbeach</h1>
-              <div class="border-button"><a href="about.html">Go There</a></div>
+              <div class="border-button"><a href="{{url('/campsites_spe/'.$sandbeach)}}">Go There</a></div>
             </div>
             <div class="container">
               <div class="row">
@@ -108,7 +109,7 @@
                       </div>
                       <div class="col-lg-3 col-sm-6 col-6">
                         <div class="main-button">
-                          <a href="about.html">Explore More</a>
+                          <a href="{{url('deals')}}">Explore More</a>
                         </div>
                       </div>
                     </div>
@@ -123,7 +124,7 @@
             <div class="main-caption">
               <h2>Take a Glimpse Into The Beautiful Site Of:</h2>
               <h1>Hill</h1>
-              <div class="border-button"><a href="about.html">Go There</a></div>
+              <div class="border-button"><a href="{{url('/campsites_spe/'.$hill)}}">Go There</a></div>
             </div>
             <div class="container">
               <div class="row">
@@ -144,7 +145,7 @@
                       </div>
                       <div class="col-lg-3 col-sm-6 col-6">
                         <div class="main-button">
-                          <a href="about.html">Explore More</a>
+                          <a href="{{url('deals')}}">Explore More</a>
                         </div>
                       </div>
                     </div>
@@ -166,7 +167,7 @@
     </div>
   </section>
   <!-- ***** Main Banner Area End ***** -->
-  
+
   <div class="visit-country">
     <div class="container">
       <div class="row">
@@ -177,13 +178,16 @@
           </div>
         </div>
       </div>
+
+
+      
       <div class="row">
-        <div class="col-lg-8">
-          <div class="items">
+        <div class="col-lg-8 ">
+          <div class="items ">
             <div class="row">
 
             @foreach($data as $rt)
-
+            <div class="">
                 <div class="col-lg-12">
                 <div class="item">
                   <div class="row">
@@ -198,9 +202,10 @@
                     </div>
                     <div class="col-lg-8 col-sm-7">
                       <div class="right-content">
-                        <h4><uppercase>{{$rt->first_image->img_alt}}</uppercase></h4>
+                        <h4><uppercase>{{$rt->title}}</uppercase></h4>
                         <!-- <span>Europe</span> -->
                         <div class="main-button">
+                          
                           <a href="{{url('/campsites_spe/'.$rt->id)}}">Explore More</a>
                         </div>
                         <br>
@@ -219,23 +224,18 @@
                     </div>
                   </div>
                 </div>
+
+
               </div>
+            </div>
 
 
             
             @endforeach
               
-               
-               
-              <div class="col-lg-12">
-                <ul class="page-numbers">
-                  <li><a href="#"><i class="fa fa-arrow-left"></i></a></li>
-                  <li><a href="#">1</a></li>
-                  <li class="active"><a href="#">2</a></li>
-                  <li><a href="#">3</a></li>
-                  <li><a href="#"><i class="fa fa-arrow-right"></i></a></li>
-                </ul>
-              </div>
+
+
+
             </div>
           </div>
         </div>
@@ -244,8 +244,8 @@
             <div class="row">
               <div class="col-lg-12">
                 <div id="map">
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12469.776493332698!2d-80.14036379941481!3d25.907788681148624!2m3!1f357.26927939317244!2f20.870722720054623!3f0!3m2!1i1024!2i768!4f35!3m3!1m2!1s0x88d9add4b4ac788f%3A0xe77469d09480fcdb!2sSunny%20Isles%20Beach!5e1!3m2!1sen!2sth!4v1642869952544!5m2!1sen!2sth" width="100%" height="550px" frameborder="0" style="border:0; border-radius: 23px; " allowfullscreen=""></iframe>
-                </div>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31867.538894022662!2d101.73224028838267!3d3.2396020613079615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc38c2f70795af%3A0xf808897bf1163a3!2z6ams5p2l6KW_5Lqa5Zu96ZmF5LyK5pav5YWw5aSn5a2m!5e0!3m2!1szh-CN!2smy!4v1683792587931!5m2!1szh-CN!2smy" width="100%" height="550px" frameborder="0" style="border:0; border-radius: 23px; " allowfullscreen=""></iframe>
+                     </div>
               </div>
             </div>
           </div>
@@ -253,6 +253,8 @@
       </div>
     </div>
   </div>
+
+
 
   <div class="call-to-action">
     <div class="container">
@@ -263,14 +265,43 @@
         </div>
         <div class="col-lg-4">
           <div class="border-button">
-            <a href="reservation.html">Book Yours Now</a>
+            <a href="{{url('booking_user')}}">Book Yours Now</a>
           </div>
         </div>
       </div>
     </div>
   </div>
 
+  
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+$(document).ready(function() {
+  $(".owl-menu-item").owlCarousel({
+    items: 3,
+    margin: 20,
+    loop: true,
+    nav: true,
+    dots: false,
+    navText: [
+        '<i class="fa fa-angle-left"></i>',
+        '<i class="fa fa-angle-right"></i>'
+    ],
+    responsive: {
+        0: {
+            items: 1
+        },
+        768: {
+            items: 2
+        },
+        992: {
+            items: 3
+        }
+    }
+  });
+});
+</script>
+  
 @endsection
 
 

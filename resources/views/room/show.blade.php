@@ -110,7 +110,7 @@
                                 <tr>
                                     
                                     <td>
-                                    @if($data->roomamenities->ATV)
+                                    @if($data->roomamenities->atv)
                                         <i class="fa fa-check" aria-hidden="true"></i>
                                     @else
                                         <i class="fa fa-times" aria-hidden="true"></i>

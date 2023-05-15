@@ -16,5 +16,11 @@ class Booking extends Model
     function room(){
         return $this->belongsTo(Room::class);
     }
+
+    public function comment()
+{
+    return $this->hasMany(Booking_comments::class,'booking_id');
+}
+
     //the belongsTo function is used to define a many-to-one relationship between two models
 }

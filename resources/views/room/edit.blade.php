@@ -55,13 +55,10 @@
                                         <td><input value="{{$data->phone}}" name="phone" type="text" class="form-control" /></td>
                                     </tr>
                                     <tr>
-                                        <th>Latitude</th>
-                                        <td><input value="{{$data->latitude}}" name="latitude" type="text" class="form-control" /></td>
+                                        <th>Location</th>
+                                        <td><input value="{{$data->location}}" name="latitude" type="text" class="form-control" /></td>
                                     </tr>
-                                    <tr>
-                                        <th>Longitude</th>
-                                        <td><input value="{{$data->longitude}}" name="longitude" type="text" class="form-control" /></td>
-                                    </tr>
+                                    
                                     <tr>
                                         <th>Address</th>
                                         <td><input value="{{$data->address}}" name="address" type="text" class="form-control" /></td>
@@ -86,6 +83,46 @@
                                                     @endforeach
                                                 </tr>
                                             </table>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <th>Amenities</th>
+                                        <td>
+                                        
+                                        <label><input type="checkbox" name="atv" value="1" {{ $data->roomamenities->atv == 1 ? 'checked' : '' }}> ATV</label><br>
+                                        <label><input type="checkbox" name="cycling" value="1" {{ $data->roomamenities->cycling == 1 ? 'checked' : '' }}> Cycling</label><br>
+                                        <label><input type="checkbox" name="firepit" value="1" {{ $data->roomamenities->firepit == 1 ? 'checked' : '' }}> Firepit</label><br>
+                                        
+                                        <label><input type="checkbox" name="kayak" value="1" {{ $data->roomamenities->kayak == 1 ? 'checked' : '' }}> Kayak</label><br>
+                                        <label><input type="checkbox" name="pet_friendly" value="1" {{ $data->roomamenities->pet_friendly == 1 ? 'checked' : '' }}> Pet Friendly</label><br>
+                                        
+                                        <label><input type="checkbox" name="rafting" value="1" {{ $data->roomamenities->rafting == 1 ? 'checked' : '' }}> Rafting</label><br>
+                                        <label><input type="checkbox" name="swimming_pool" value="1" {{ $data->roomamenities->swimming_pool == 1 ? 'checked' : '' }}> Swimming Pool</label><br>
+                                        <label><input type="checkbox" name="archery" value="1" {{ $data->roomamenities->archery == 1 ? 'checked' : '' }}> Archery</label><br>
+                                        <label><input type="checkbox" name="drinking_water" value="1" {{ $data->roomamenities->drinking_water == 1 ? 'checked' : '' }}> Drinking Water</label><br>
+                                        <label><input type="checkbox" name="fishing" value="1" {{ $data->roomamenities->fishing == 1 ? 'checked' : '' }}> Fishing</label><br>
+                                        <label><input type="checkbox" name="kitchen_sink" value="1" {{ $data->roomamenities->kitchen_sink == 1 ? 'checked' : '' }}> Kitchen/Sink</label><br>
+                                        <label><input type="checkbox" name="phone_coverage" value="1" {{ $data->roomamenities->phone_coverage == 1 ? 'checked' : '' }}> Phone Coverage</label><br>
+                                        <label><input type="checkbox" name="river" value="1" {{ $data->roomamenities->river == 1 ? 'checked' : '' }}> River</label><br>
+                                        <label><input type="checkbox" name="toilet" value="1" {{ $data->roomamenities->toilet == 1 ? 'checked' : '' }}> Toilet</label><br>
+                                        <label><input type="checkbox" name="BBQ_pit" value="1" {{ $data->roomamenities->BBQ_pit == 1 ? 'checked' : '' }}> BBQ Pit</label><br>
+                                        <label><input type="checkbox" name="event_space" value="1" {{ $data->roomamenities->event_space == 1 ? 'checked' : '' }}> Event Space</label><br>
+                                        <label><input type="checkbox" name="gazebo" value="1" {{ $data->roomamenities->gazebo == 1 ? 'checked' : '' }}> Gazebo</label><br>
+                                        <label><input type="checkbox" name="lake" value="1" {{ $data->roomamenities->lake == 1 ? 'checked' : '' }}> Lake</label><br>
+                                        <label><input type="checkbox" name="playground" value="1" {{ $data->roomamenities->playground == 1 ? 'checked' : '' }}> Playground</label><br>
+                                        <label><input type="checkbox" name="shower" value="1" {{ $data->roomamenities->shower == 1 ? 'checked' : '' }}> Shower</label><br>
+                                        <label><input type="checkbox" name="waterfall" value="1" {{ $data->roomamenities->waterfall == 1 ? 'checked' : '' }}> Waterfall</label><br>
+
+
+                                        <label><input type="checkbox" name="beach" value="1" {{ $data->roomamenities->beach ? 'checked' : '' }}> Beach</label><br>
+                                        <label><input type="checkbox" name="farm" value="1" {{ $data->roomamenities->farm ? 'checked' : '' }}> Farm</label><br>
+                                        <label><input type="checkbox" name="hiking" value="1" {{ $data->roomamenities->hiking ? 'checked' : '' }}> Hiking</label><br>
+                                        <label><input type="checkbox" name="parking" value="1" {{ $data->roomamenities->parking ? 'checked' : '' }}> Parking</label><br>
+                                        <label><input type="checkbox" name="plug" value="1" {{ $data->roomamenities->plug ? 'checked' : '' }}> Plug</label><br>
+                                        <label><input type="checkbox" name="surau" value="1" {{ $data->roomamenities->surau ? 'checked' : '' }}> Surau</label><br>
+                                        <label><input type="checkbox" name="wifi" value="1" {{ $data->roomamenities->wifi ? 'checked' : '' }}> WIFI</label><br>
+
                                         </td>
                                     </tr>
 

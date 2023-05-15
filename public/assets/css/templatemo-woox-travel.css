@@ -2024,6 +2024,12 @@ Deals Page Style
 Reservation Page Style
 --------------------------------------------- 
 */
+.page-heading-img{
+  background-image: url(../images/heading-bg-02.jpg);
+}
+.page-heading-img-details{
+  background-image: url(../images/banner-02_1.jpg);
+}
 
 .second-page-heading {
   background-image: url(../images/heading-bg-02.jpg);

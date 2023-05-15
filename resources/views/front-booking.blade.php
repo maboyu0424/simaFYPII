@@ -7,14 +7,28 @@
 <br>
 <br>
 <br>
-
+<div class="page-heading page-heading-img">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h4>Plan your Weekead</h4>
+          <h2>Reservation &amp; Discover More</h2>
+          <!-- <div class="border-button"><a href="about.html">Discover More</a></div> -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
 <!-- Begin Page Content -->
 <div class="container-fluid container"> 
                     <!-- DataTales Example -->
                     <div class="card shadow mb-4 col-9">
                         <div class="card-header py-3">
                             <h6 class="m-0 font-weight-bold text-primary">Campsites Booking
+                            <a href="{{ url('booking_user/all_bookings/' . session('customerdata')[0]->id) }}" class="float-right btn btn-success btn-sm" style="float: right;">View All Bookings</a>
                             </h6>
+                            
                         </div>
 
                         

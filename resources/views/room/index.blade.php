@@ -53,14 +53,14 @@
                                         @foreach ($data as $d)
                                             <tr>
                                                 <td>{{ $d->id }}</td>
-                                                <td width="100px">{{ $d->Roomtype->title}}</td>
-                                                <td>{{ $d->title}}</td>
-                                                <td>{{ $d->price}}</td>
+                                                <td width="100px">{{ $d->Roomtype->title ?? 'N/A'}}</td>
+                                                <td>{{ $d->title ?? 'N/A'}}</td>
+                                                <td>{{ $d->price ?? 'N/A'}}</td>
                                                 <!-- style="width: 680px;" -->
-                                                <td>{{substr($d->description, 0, 45)}}</td>
-                                                <td>{{ $d->phone}}</td>
+                                                <td>{{substr($d->description, 0, 45) ?? 'N/A'}}</td>
+                                                <td>{{ $d->phone ?? 'N/A'}}</td>
                                                 
-                                                <td>{{substr($d->address, 0, 20)}}</td>
+                                                <td>{{substr($d->address, 0, 20) ?? 'N/A'}}</td>
                                                 <td>
                                                     @if ($d->facebook!="None")
                                                     <i class="fa fa-check" aria-hidden="true"></i>

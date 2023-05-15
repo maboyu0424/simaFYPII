@@ -56,6 +56,16 @@ return [
             // ],
         ],
 
+        'mailjet' => [
+            'transport' => 'smtp',
+            'host' => env('MAIL_HOST', 'in-v3.mailjet.com'),
+            'port' => env('MAIL_PORT', 465),
+            'encryption' => env('MAIL_ENCRYPTION', 'tls'),
+            'username' => env('MAIL_USERNAME','f14c4921b6cbd8ea455bf8aa732b0162'),
+            'password' => env('MAIL_PASSWORD','69908f9f6a9739e53c3e45a6822cae44'),
+        ],
+        
+
         'postmark' => [
             'transport' => 'postmark',
             // 'client' => [

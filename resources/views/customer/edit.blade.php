@@ -46,7 +46,7 @@
                                     </tr>
 
                                     <tr>
-                                        <th>Photo</th>
+                                        <th>Photo (eg.receipt)</th>
                                         <td>
                                             <input name="photo" type="file"/>
                                             <input name="prev_photo" type="hidden" value="{{$data->photo}}" />

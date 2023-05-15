@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Booking_comments;
 use Illuminate\Http\Request;
 use App\Models\Customer;
 use Illuminate\Support\Facades\DB;

@@ -2,11 +2,8 @@
 @section('contentf')
 
 <main>
-<br>
-<br>
-<br>
-<br>
-<br>
+
+
 
 <!-- ***** Main Banner Area Start ***** -->
 <div class="about-main-content">
@@ -15,12 +12,12 @@
         <div class="col-lg-12">
           <div class="content">
             <div class="blur-bg"></div>
-            <h4>EXPLORE OUR COUNTRY</h4>
+            <h4>EXPLORE OUR COMPANY</h4>
             <div class="line-dec"></div>
-            <h2>Welcome To Caribbean</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt uttersi labore et dolore magna aliqua is ipsum suspendisse ultrices gravida</p>
+            <h2>Welcome To Light-Trip</h2>
+            <p>We are dedicated to delivering unparalleled travel services.</p>
             <div class="main-button">
-              <a href="reservation.html">Discover More</a>
+              <!-- <a href="reservation.html">Discover More</a> -->
             </div>
           </div>
         </div>
@@ -32,203 +29,11 @@
   <div class="cities-town">
     <div class="container">
       <div class="row">
-        <div class="slider-content">
-          <div class="row">
-            <div class="col-lg-12">
-              <h2>Caribbean’s <em>Cities &amp; Towns</em></h2>
-            </div>
-            <div class="col-lg-12">
-              <div class="owl-cites-town owl-carousel">
-                <div class="item">
-                  <div class="thumb">
-                    <img src="assets/images/cities-01.jpg" alt="">
-                    <h4>Havana</h4>
-                  </div>
-                </div>
-                <div class="item">
-                  <div class="thumb">
-                    <img src="assets/images/cities-02.jpg" alt="">
-                    <h4>Kingston</h4>
-                  </div>
-                </div>
-                <div class="item">
-                  <div class="thumb">
-                    <img src="assets/images/cities-03.jpg" alt="">
-                    <h4>George Town</h4>
-                  </div>
-                </div>
-                <div class="item">
-                  <div class="thumb">
-                    <img src="assets/images/cities-04.jpg" alt="">
-                    <h4>Santo Domingo</h4>
-                  </div>
-                </div>
-                <div class="item">
-                  <div class="thumb">
-                    <img src="assets/images/cities-01.jpg" alt="">
-                    <h4>Havana</h4>
-                  </div>
-                </div>
-                <div class="item">
-                  <div class="thumb">
-                    <img src="assets/images/cities-02.jpg" alt="">
-                    <h4>Kingston</h4>
-                  </div>
-                </div>
-                <div class="item">
-                  <div class="thumb">
-                    <img src="assets/images/cities-03.jpg" alt="">
-                    <h4>George Town</h4>
-                  </div>
-                </div>
-                <div class="item">
-                  <div class="thumb">
-                    <img src="assets/images/cities-04.jpg" alt="">
-                    <h4>Santo Domingo</h4>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+         
       </div>
     </div>
   </div>
-
-  <div class="weekly-offers">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 offset-lg-3">
-          <div class="section-heading text-center">
-            <h2>Best Weekly Offers In Each City</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="owl-weekly-offers owl-carousel">
-            <div class="item">
-              <div class="thumb">
-                <img src="assets/images/offers-01.jpg" alt="">
-                <div class="text">
-                  <h4>Havana<br><span><i class="fa fa-users"></i> 234 Check Ins</span></h4>
-                  <h6>$420<br><span>/person</span></h6>
-                  <div class="line-dec"></div>
-                  <ul>
-                    <li>Deal Includes:</li>
-                    <li><i class="fa fa-taxi"></i> 5 Days Trip > Hotel Included</li>
-                    <li><i class="fa fa-plane"></i> Airplane Bill Included</li>
-                    <li><i class="fa fa-building"></i> Daily Places Visit</li>
-                  </ul>
-                  <div class="main-button">
-                    <a href="reservation.html">Make a Reservation</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="thumb">
-                <img src="assets/images/offers-02.jpg" alt="">
-                <div class="text">
-                  <h4>Kingston<br><span><i class="fa fa-users"></i> 234 Check Ins</span></h4>
-                  <h6>$420<br><span>/person</span></h6>
-                  <div class="line-dec"></div>
-                  <ul>
-                    <li>Deal Includes:</li>
-                    <li><i class="fa fa-taxi"></i> 5 Days Trip > Hotel Included</li>
-                    <li><i class="fa fa-plane"></i> Airplane Bill Included</li>
-                    <li><i class="fa fa-building"></i> Daily Places Visit</li>
-                  </ul>
-                  <div class="main-button">
-                    <a href="reservation.html">Make a Reservation</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="thumb">
-                <img src="assets/images/offers-03.jpg" alt="">
-                <div class="text">
-                  <h4>George Town<br><span><i class="fa fa-users"></i> 234 Check Ins</span></h4>
-                  <h6>$420<br><span>/person</span></h6>
-                  <div class="line-dec"></div>
-                  <ul>
-                    <li>Deal Includes:</li>
-                    <li><i class="fa fa-taxi"></i> 5 Days Trip > Hotel Included</li>
-                    <li><i class="fa fa-plane"></i> Airplane Bill Included</li>
-                    <li><i class="fa fa-building"></i> Daily Places Visit</li>
-                  </ul>
-                  <div class="main-button">
-                    <a href="reservation.html">Make a Reservation</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="thumb">
-                <img src="assets/images/offers-01.jpg" alt="">
-                <div class="text">
-                  <h4>Havana<br><span><i class="fa fa-users"></i> 234 Check Ins</span></h4>
-                  <h6>$420<br><span>/person</span></h6>
-                  <div class="line-dec"></div>
-                  <ul>
-                    <li>Deal Includes:</li>
-                    <li><i class="fa fa-taxi"></i> 5 Days Trip > Hotel Included</li>
-                    <li><i class="fa fa-plane"></i> Airplane Bill Included</li>
-                    <li><i class="fa fa-building"></i> Daily Places Visit</li>
-                  </ul>
-                  <div class="main-button">
-                    <a href="reservation.html">Make a Reservation</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="thumb">
-                <img src="assets/images/offers-02.jpg" alt="">
-                <div class="text">
-                  <h4>Kingston<br><span><i class="fa fa-users"></i> 234 Check Ins</span></h4>
-                  <h6>$420<br><span>/person</span></h6>
-                  <div class="line-dec"></div>
-                  <ul>
-                    <li>Deal Includes:</li>
-                    <li><i class="fa fa-taxi"></i> 5 Days Trip > Hotel Included</li>
-                    <li><i class="fa fa-plane"></i> Airplane Bill Included</li>
-                    <li><i class="fa fa-building"></i> Daily Places Visit</li>
-                  </ul>
-                  <div class="main-button">
-                    <a href="reservation.html">Make a Reservation</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="thumb">
-                <img src="assets/images/offers-03.jpg" alt="">
-                <div class="text">
-                  <h4>George Town<br><span><i class="fa fa-users"></i> 234 Check Ins</span></h4>
-                  <h6>$420<br><span>/person</span></h6>
-                  <div class="line-dec"></div>
-                  <ul>
-                    <li>Deal Includes:</li>
-                    <li><i class="fa fa-taxi"></i> 5 Days Trip > Hotel Included</li>
-                    <li><i class="fa fa-plane"></i> Airplane Bill Included</li>
-                    <li><i class="fa fa-building"></i> Daily Places Visit</li>
-                  </ul>
-                  <div class="main-button">
-                    <a href="reservation.html">Make a Reservation</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+ 
 
   <div class="more-about">
     <div class="container">
@@ -240,8 +45,8 @@
         </div>
         <div class="col-lg-6">
           <div class="section-heading">
-            <h2>Discover More About Our Country</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+            <h2>Discover More About Our Campsites</h2>
+            <p>Welcome to lighttrip.com the site for all things Camping in Malaysia. </p>
           </div>
           <div class="row">
             <div class="col-lg-6">
@@ -271,96 +76,78 @@
               </div>
             </div>
           </div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
-          <div class="main-button">
-            <a href="reservation.html">Discover More</a>
-          </div>
+           </div>
+      </div>
+    </div>
+  </div>
+                            
+  <div class="reservation-form">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+        </div>
+        <div class="col-lg-12">
+          <form id="reservation-form" method="post" action="{{url('about/email')}}">
+          @csrf
+            <div class="row">
+              <div class="col-lg-12">
+                <h4>Write Your <em>Suggestions</em> Through This <em>Email Form</em></h4>
+              </div>
+              <div class="col-lg-6">
+                  <fieldset>
+                      <label for="Name" class="form-label">Your Name<span class="text-danger">*<span></label>
+                      <input type="text" name="full_name" class="form-control" placeholder="Ex. John Smithee" autocomplete="on" required>
+                  </fieldset>
+              </div>
+              <div class="col-lg-6">
+                <fieldset>
+                    <label for="number" class="form-label">Your Phone Number<span class="text-danger">*<span></label>
+                    <input type="text" name="number" class="form-control" placeholder="Ex. +xxx xxx xxx" autocomplete="on" required>
+                </fieldset>
+              </div>
+              <div class="col-lg-12">
+                <fieldset>
+                    <label for="Email" class="form-label">Your Account (Email)<span class="text-danger">*<span></label>
+                    <input type="email" name="email" class="form-control" placeholder="simaboyu@gmail.com" autocomplete="on" required>
+                </fieldset>
+              </div>
+              <div class="col-lg-12">
+                <fieldset>
+                    <label for="Email" class="form-label">Subject<span class="text-danger">*<span></label>
+                    <input type="text" name="subject" class="form-control" placeholder="What's your subject?" autocomplete="on" required>
+                </fieldset>
+              </div>
+              <div class="col-lg-10">
+                  <fieldset>
+                      <label for="chooseGuests" class="form-label">Your Suggestion<span class="text-danger">*<span></label>
+                      <textarea type="text" name="msg" style="height: 240px;width:1050px;border-radius: 20px;background-color:#F9F9F9;" autocomplete="on"  placeholder="  We sincerely hope to obtain your advice" required></textarea>
+                      <!-- <input type="text" style="height: 240px;width:1040px;" name="suggestion" class="suggestion" placeholder="We sincerely hope to obtain your advice" autocomplete="on" required> -->
+                      
+                    </fieldset>
+              </div>
+               
+              <div class="col-lg-12">                        
+                  <fieldset>
+                      <button type="submit" class="main-button">Send Email</button>
+                  </fieldset>
+              </div>
+              @if(Session::has('success'))
+              <p class="text-success">{{Session('success')}}</p>
+              @endif
+
+              @if ($errors->any())
+                            @foreach($errors->all() as $error)
+                                <p class="text-danger">{{$error}}</p>
+                            @endforeach
+                            @endif
+            </div>
+          </form>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="best-locations">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 offset-lg-3">
-          <div class="section-heading text-center">
-            <h2>Best Locations In Caribbeans</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
-          </div>
-        </div>
-        <div class="col-lg-8 offset-lg-2">
-          <div class="options">
-            <div class="option active" style="--optionBackground:url(https://buttoncreatives.com/html/woox/assets/images/best-01.jpg);">
-               <div class="shadow"></div>
-               <div class="label">
-                  <div class="icon">
-                     <i class="fas fa-expand"></i>
-                  </div>
-                  <div class="info">
-                     <div class="main">Havana</div>
-                     <div class="sub">Population: 2M</div>
-                  </div>
-               </div>
-            </div>
-            <div class="option" style="--optionBackground:url(https://buttoncreatives.com/html/woox/assets/images/best-02.jpg);">
-               <div class="shadow"></div>
-               <div class="label">
-                  <div class="icon">
-                    <i class="fas fa-expand"></i>
-                  </div>
-                  <div class="info">
-                     <div class="main">Kingston</div>
-                     <div class="sub">Population: 3.5M</div>
-                  </div>
-               </div>
-            </div>
-            <div class="option" style="--optionBackground:url(https://buttoncreatives.com/html/woox/assets/images/best-03.jpg);">
-               <div class="shadow"></div>
-               <div class="label">
-                  <div class="icon">
-                    <i class="fas fa-expand"></i>
-                  </div>
-                  <div class="info">
-                     <div class="main">London</div>
-                     <div class="sub">Population: 4.1M</div>
-                  </div>
-               </div>
-            </div>
-            <div class="option" style="--optionBackground:url(https://buttoncreatives.com/html/woox/assets/images/best-04.jpg);">
-               <div class="shadow"></div>
-               <div class="label">
-                  <div class="icon">
-                    <i class="fas fa-expand"></i>
-                  </div>
-                  <div class="info">
-                     <div class="main">Pristina</div>
-                     <div class="sub">Population: 520K</div>
-                  </div>
-               </div>
-            </div>
-            <div class="option" style="--optionBackground:url(https://buttoncreatives.com/html/woox/assets/images/best-05.jpg);">
-               <div class="shadow"></div>
-               <div class="label">
-                  <div class="icon">
-                    <i class="fas fa-expand"></i>
-                  </div>
-                  <div class="info">
-                     <div class="main">Paris</div>
-                     <div class="sub">Population: 3M</div>
-                  </div>
-               </div>
-            </div>
-         </div>
-        </div>
-        <div class="col-lg-12">
-          <div class="main-button text-center">
-            <a href="deals.html">Discover All Places</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+  
 
   <div class="call-to-action">
     <div class="container">
@@ -371,12 +158,13 @@
         </div>
         <div class="col-lg-4">
           <div class="border-button">
-            <a href="reservation.html">Book Yours Now</a>
+            <a href="{{url('booking_user')}}">Book Yours Now</a>
           </div>
         </div>
       </div>
     </div>
   </div>
+
 
 </main>
     <!-- Bootstrap core JavaScript-->

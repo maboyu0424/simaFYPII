@@ -26,6 +26,21 @@
 .flex-slider a:hover {
   outline: none;
 }
+
+ul.list-unstyled {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul.list-unstyled li {
+  flex: 0 0 calc(25% - 10px); /* adjust the width as needed */
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+}
 .slides,
 .slides > li,
 .flex-control-nav,

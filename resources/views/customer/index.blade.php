@@ -43,9 +43,9 @@
                                         @foreach ($data as $c)
                                             <tr>
                                             <td>{{ $c->id }}</td>
-                                                <td>{{ $c->full_name }}</td>
-                                                <td>{{ $c->email }}</td>                                                
-                                                <td>{{ $c->mobile }}</td>
+                                                <td>{{ $c->full_name ?? 'N/A'}}</td>
+                                                <td>{{ $c->email ?? 'N/A'}}</td>                                                
+                                                <td>{{ $c->mobile ?? 'N/A'}}</td>
                         
                                                 <td>
                                                     <a href="{{url('admin/customer/'.$c->id)}}" class="btn btn-info btn-sm"><i class="fa fa-eye"></i></a>

@@ -26,4 +26,11 @@ class Room extends Model
         return $this->hasOne(RoomAmenities::class,'room_id');
     }
 
+    public function comment(){
+        return $this->hasMany(Booking_comments::class,'room_id');
+        //this room type has many images
+
+        //are PHP classes that represent a table in the database
+    }
+
 }

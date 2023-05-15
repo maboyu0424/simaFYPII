@@ -22,7 +22,7 @@
                                         </td>
                                     </tr> 
                                     <tr>
-                                        <th>Photo</th>
+                                    <th>Photo (eg.receipt)</th>
                                         <td>
                                         <img width="100" src="{{asset(str_replace('public', 'storage_new', $data->photo))}}" />
                                         </td>

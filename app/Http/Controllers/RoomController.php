@@ -61,8 +61,9 @@ class RoomController extends Controller
         }
 
         $AmenityData = new Roomamenities;
+
         $AmenityData->room_id = $data->id;
-        $AmenityData->ATV = $request->input('atv', 0);
+        $AmenityData->atv = $request->input('atv', 0);
         $AmenityData->cycling = $request->input('cycling', 0);
         $AmenityData->firepit = $request->input('firepit', 0);
         $AmenityData->kayak = $request->input('kayak', 0);
@@ -145,8 +146,9 @@ class RoomController extends Controller
             }
         }
 
-        $AmenityData = Roomamenities::find($id);
-        $AmenityData->ATV = $request->input('ATV', 0);
+        $AmenityData = Roomamenities::firstOrNew(['room_id' => $id]);
+
+        $AmenityData->atv = $request->input('atv', 0);
         $AmenityData->cycling = $request->input('cycling', 0);
         $AmenityData->firepit = $request->input('firepit', 0);
         $AmenityData->kayak = $request->input('kayak', 0);

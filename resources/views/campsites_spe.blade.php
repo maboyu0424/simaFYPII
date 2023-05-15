@@ -9,19 +9,19 @@
 <body>
 
 
-  <div class="page-heading">
+  <div class="page-heading page-heading-img">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
           <h4>Discover Our Weekly Offers</h4>
           <h2>Amazing Prices &amp; More</h2>
-          <div class="border-button"><a href="about.html">Discover More</a></div>
+          <!-- <div class="border-button"><a href="about.html">Discover More</a></div> -->
         </div>
       </div>
     </div>
   </div>
 
-  <div class="search-form">
+  <!-- <div class="search-form">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
@@ -68,15 +68,15 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
   <div class="amazing-deals">
     <div class="container">
       <div class="row">
         <div class="col-lg-6 offset-lg-3">
           <div class="section-heading text-center">
-            <h2>Best Weekly Offers In Each City</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+            <h2>Best Offers In Each Type of Campsite</h2>
+            <p>Search and discover camping, glamping, car camping, RV and chalet spots around Malaysia</p>
           </div>
         </div>
 
@@ -91,7 +91,7 @@
               
 
                 @if ($roomImage = $roomImages->where('room_id', $room->id)->last())
-            <img src="{{asset(str_replace('public', 'storage_new', $roomImage->img_src))}}" alt="Room image">
+            <img width="240" height="370" src="{{asset(str_replace('public', 'storage_new', $roomImage->img_src))}}" alt="Room image">
                  @endif
                 
               
@@ -99,7 +99,7 @@
               <div class="col-lg-6 align-self-center">
                 <div class="content">
                   <!-- <span class="info">*Limited Offer Today</span> -->
-                  <h4>{{$room->title}}</h4>
+                  <a href="{{'/campsites_spe/details/'.$room->id}}"><h4>{{$room->title}}</h4></a>
                   <div class="row">
                     <div class="col-6">
                       <i class="fa fa-clock"></i>
@@ -110,10 +110,11 @@
                       <span class="list">Daily Places</span>
                     </div>
                   </div>
-                  <p>{{substr($room->description, 0, 65)}}...</p>
+                  <p>{{substr($room->description, 0, 90)}}...</p>
                   
                   <div class="main-button">
-                    <a href="reservation.html">Make a Reservation</a>
+                    <a href="{{'/campsites_spe/specific_booking/'.$room->id}}">Make a Reservation</a>
+                    
                   </div>
                 </div>
               </div>
@@ -217,7 +218,7 @@
           </div>
         </div> -->
 
-        <div class="col-lg-12">
+        <!-- <div class="col-lg-12">
           <ul class="page-numbers">
             <li><a href="#"><i class="fa fa-arrow-left"></i></a></li>
             <li><a href="#">1</a></li>
@@ -228,7 +229,9 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
+      </div>
+    </div>
 
   <div class="call-to-action">
     <div class="container">

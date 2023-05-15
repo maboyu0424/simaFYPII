@@ -6,6 +6,21 @@
 /*
  *  Owl Carousel - Core
  */
+ ul.list-unstyled {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul.list-unstyled li {
+  flex: 0 0 calc(20% - 10px); /* adjust the width as needed */
+  padding: 2px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
 .owl-carousel {
   display: none;
   width: 100%;

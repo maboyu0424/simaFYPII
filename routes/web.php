@@ -31,10 +31,12 @@ Route::get('/login_user', [HomeController::class,'login_user']);
 Route::post('/login_user_check', [HomeController::class,'check_login_user']);
 Route::get('/logout_user', [HomeController::class,'logout_user']);
 Route::get('/booking_user', [HomeController::class,'front_booking']);
+Route::get('/booking_user/all_bookings/{id}', [HomeController::class,'all_booking']);
 
 // ....
 Route::get('/', [HomeController::class,'index']);
 Route::get('/about', [HomeController::class,'about']);
+Route::post('about/email', [HomeController::class,'email_sending']);
 
 // ------------------------------------------------------------------------------------------------------------
 
@@ -82,3 +84,11 @@ Route::get('/get-room-price/{id}', [HomeController::class,'check_price']);
 //Specific campsites
 
 Route::get('/campsites_spe/{id}', [HomeController::class,'campsites_spe']);
+
+Route::get('/campsites_spe/details/{id}', [HomeController::class,'details_campsite']);
+
+//Specific booking page
+Route::get('/campsites_spe/specific_booking/{id}', [HomeController::class,'booking_spe_campsite']);
+
+//comments
+Route::post('comments', [HomeController::class,'bookings_comments']);

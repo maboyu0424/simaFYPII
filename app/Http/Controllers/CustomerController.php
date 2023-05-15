@@ -127,6 +127,7 @@ class CustomerController extends Controller
     public function destroy(string $id)
     {
         Customer::where('id',$id)->delete();
+        
         return redirect('admin/customer')->with('success','data has been delete!');
     }
 
